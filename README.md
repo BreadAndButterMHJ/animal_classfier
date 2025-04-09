@@ -2,6 +2,8 @@
 
 这个项目的功能是动物品种的识别，采用了**ResNet18**作为预训练模型，能够识别**10**种类型，该项目是本人对于torch使用的练习，数据集采用如下[Animals-10](https://www.kaggle.com/datasets/alessiocorrado99/animals10)
 
+请将数据集放入`data文件夹中
+
 ## 环境配置主要使用了如下包
 - **torch**，**torchvision**用作模型的建立与训练
 - **matplotlib**用作结果可视化
